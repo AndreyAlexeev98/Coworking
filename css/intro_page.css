@@ -1,0 +1,75 @@
+.auth-wrapper { 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/banners/Banner_intro.png) center center /cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome {
+  margin-top: 116px;
+}
+
+.welcome__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: workadium 2s infinite;
+}
+
+.welcome__logo {
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.welcome__link {
+  display: inline-block;
+  border: 3px solid #ec1e79;
+  padding: 15px 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ec1e79;
+  font-weight: bold;
+  font-family: "Gotham Pro";
+  line-height: 1;
+}
+
+.welcome__link:hover {
+  color: #ffffff;
+  background-color: #ec1e79;
+}
+
+
+
+
+
+
+@keyframes workadium {
+
+  from {
+    opacity: 0;
+    transform: scale(0.2) rotate(20deg);
+  }
+
+  40% {
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    transform: rotate(5deg);
+  }
+
+  80% {
+    transform: ckale(1);
+    rotate: (0deg);
+  }
+
+  to {
+    opacity: 1;
+  }
+}

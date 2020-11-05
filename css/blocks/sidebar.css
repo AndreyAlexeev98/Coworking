@@ -1,0 +1,189 @@
+.sidebar {
+  width: 25%;
+
+}
+
+.sidebar__list {
+  display: flex;
+  margin: 0 0 45px 17px;
+}
+
+
+.sidebar__item {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #cb2376;
+  font-weight: bold;
+  font-family: "Gotham Pro";
+  text-transform: uppercase;
+  margin-right: 45px;
+}
+
+
+.sidebar__item--active {
+  color: #262525;
+  display: inline-block;
+  position: relative;
+}
+
+.sidebar__item--active::before{
+  display: block;
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 78%;
+  background-color: #bfbfbf;
+  left: 21%;
+  bottom: 0px;
+  }
+
+.sidebar__link:hover {
+  color: #262525;
+  transition: .5s;
+}
+
+
+/* icon menu-main */
+
+.sidebar__link-main {
+  position: relative;
+  padding-left: 20px;
+}
+
+.sidebar__link-main::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-17px);
+  width: 17px;
+  height: 17px;
+  background: url(../../img/icons/menu_sprites.png) -90px -10px;
+  opacity: 1;
+}
+
+  .sidebar__link-main::after {
+  opacity: 0;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-17px);
+  width: 17px; 
+  height: 17px;
+  background: url(../../img/icons/menu_sprites.png) -90px -46px;
+}                      
+
+.sidebar__link:hover .sidebar__link-main::before {
+  opacity: 0;
+  transition: .5s;
+}
+
+.sidebar__link:hover .sidebar__link-main::after {
+  opacity: 1;
+  transition: .5s;
+}
+
+.sidebar__item--active .sidebar__link-main::before,.sidebar__link-main::after {
+  background-position: -90px -46px;
+}
+
+
+
+/* icon menu-reviews */
+
+.sidebar__link-reviews {
+  position: relative;
+  padding-left: 20px;
+}
+
+.sidebar__link-reviews::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-17px);
+  width: 20px;
+  height: 18px;
+  background: url(../../img/icons/menu_sprites.png) -10px -10px;
+  opacity: 1;
+}
+
+  .sidebar__link-reviews::after {
+  opacity: 0;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-17px);
+  width: 20px; 
+  height: 18px;
+  background: url(../../img/icons/menu_sprites.png) -50px -10px;
+}                      
+
+.sidebar__link:hover .sidebar__link-reviews::before {
+  opacity: 0;
+  transition: .5s;
+}
+
+.sidebar__link:hover .sidebar__link-reviews::after {
+  opacity: 1;
+  transition: .5s;
+}
+
+.sidebar__item--active .sidebar__link-reviews::before {
+  background-position: -50px -10px;
+}
+
+
+
+/* icon menu-tariffs */
+
+.sidebar__link-tariffs {
+  position: relative;
+  padding-left: 19px;
+}
+
+.sidebar__link-tariffs::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-17px);
+  width: 19px; 
+  height: 16px;
+  background: url(../../img/icons/menu_sprites.png) -10px -48px;
+  opacity: 1;
+}
+
+  .sidebar__link-tariffs::after {
+  opacity: 0;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-17px);
+  width: 19px; 
+  height: 16px;
+  background: url(../../img/icons/menu_sprites.png) -49px -48px;
+}                      
+
+.sidebar__link:hover .sidebar__link-tariffs::before {
+  opacity: 0;
+  transition: .5s;
+}
+
+.sidebar__link:hover .sidebar__link-tariffs::after {
+  opacity: 1;
+  transition: .5s;
+}
+
+.sidebar__item--active .sidebar__link-tariffs::before {
+  background-position: -49px -48px;
+}

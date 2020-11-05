@@ -1,0 +1,137 @@
+.feauters {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.title {
+  font-size: 49px;
+  color: #262424;
+  font-weight: bold;
+  font-family: "Gotham Pro";
+}
+
+.title__feauters {
+  margin-top: 10px;
+  margin-bottom: 34px;
+  font-size: 30px;
+}
+
+.feauters__list {
+  display: flex;
+  font-family: "Gotham Pro";
+  text-align: center;
+}
+
+.feauters__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin-right: 20px;
+  border: 1px solid transparent;
+  transition: border .5s;
+}
+
+.feauters__item:hover {
+  border: 1px solid #2b2b40;
+  transition: border .5s;
+}
+
+.feauters__item:last-child {
+  margin-right: 0px;
+  padding-top: 47px;
+}
+
+.feauters__icon {
+  position: relative;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #2b2b40;
+  margin-bottom: 33px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feauters__img {
+  background: url(../../img/icons/feauteres_sprites.png);
+}
+
+.feauters__img-flovers {
+  width: 27px; 
+  height: 31px;
+  background-position: -62px -10px;
+}
+
+.feauters__img-star {
+  width: 32px; 
+  height: 32px;
+  background-position: -10px -10px;
+}
+
+.feauters__img-painter {
+  width: 28px; 
+  height: 29px;
+  background-position: -109px -10px;
+}
+
+.feauters__subtitle { 
+  text-transform: uppercase;   
+  font-size: 11px;
+  letter-spacing: 2.4px;
+  color: #262626;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.feauters__description {
+  font-size: 18px;
+  color: #262424;
+}
+
+.feauters__content-list {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.feauters__content__item {
+  position: relative;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.feauters__content__item::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 5px;
+  background-color: #b03664;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+
+.feauters__text {
+  margin-bottom: 11px;
+  line-height: 1.6;
+}
+
+#feauters__second {
+  max-width: 231px;
+}
+
+#feauters__third {
+  padding: 0 36px;
+}
+
+
+.feauters__content__item {
+  margin-bottom: 14px;
+}
+
+.feauters__content__item:last-child {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../Fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../../Fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../Fonts/Roboto-Light.woff2') format('woff2'),
+        url('../../Fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../Fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../../Fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../../Fonts/GothamPro.woff2') format('woff2'),
+        url('../../Fonts/GothamPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../../Fonts/GothamPro-Bold.woff2') format('woff2'),
+        url('../../Fonts/GothamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../../Fonts/GothamPro-LightItalic.woff2') format('woff2'),
+        url('../../Fonts/GothamPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../../Fonts/GothamPro-Light.woff2') format('woff2'),
+        url('../../Fonts/GothamPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

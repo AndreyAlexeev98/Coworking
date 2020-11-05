@@ -1,0 +1,36 @@
+@import url('./layout/fonts.css');
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
+
+
+/* common style */
+@import url('./blocks/container.css');
+@import url('./blocks/header.css');
+@import url('./blocks/sidebar.css');
+@import url('./blocks/content.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/footer.css');
+
+/* page_1_main style */
+
+@import url('./blocks/banner.css');
+@import url('./blocks/feauters.css');
+@import url('./blocks/news.css');
+
+/* page_2_comments style */
+
+@import url('./blocks/breadcrumbs.css');
+@import url('./blocks/reviews.css');
+@import url('./blocks/pattern.css');
+@import url('./blocks/form.css');
+
+/* page_3_tariffs */
+
+@import url('./blocks/tariffs.css');
+@import url('./blocks/partners.css');
+
+
+
+
+
+

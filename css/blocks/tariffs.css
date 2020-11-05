@@ -1,0 +1,130 @@
+.title__tariffs {
+  margin-bottom: 36px;
+  margin-left: -2px;
+}
+
+.tariffs__list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #262424;
+  font-weight: 300;
+  font-family: "Gotham Pro";
+  text-align: center;
+  margin-left: 18px;
+}
+
+.tariffs__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 37px;
+  width: calc(100% / 3 - 70px);
+  margin-right: 87px;
+}
+
+.tariffs__item:nth-child(3) {
+  margin-right: 0;
+}
+
+.tariffs__item:last-child {
+  margin-right: 0;
+}
+
+.tariffs__wrap__img {
+  padding-top: 5px;
+  position: relative;
+}
+
+.tariffs__img {
+  background: url(../../img/photo/tariffs_sprites.png) center center;
+  display: flex;
+  width: 250px;
+  height: 153px;
+  position: relative;
+}
+
+.tariffs__img::before {
+  content: '';
+  background-color: #3b3a4c;
+  opacity: 0.85;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tariffs__img-1 {
+  background-position: -748px -10px;;
+}
+
+.tariffs__img-2 {
+  background-position: -245px -213px;
+}
+
+.tariffs__img-3 {
+  background-position: -748px -405px;
+}
+
+.tariffs__img-4 {
+  background-position: -748px -209px;
+}
+
+.tariffs__img-5 {
+  background-position: -10px -498px;
+}
+
+.tariffs__img-6 {
+  background-position: -344px -498px;
+}
+
+.img__name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #8ad0f6;
+  font-weight: bold;
+  font-family: "Gotham Pro";
+  text-align: center;
+  width: 80%;
+  text-transform: uppercase;
+}
+
+.img__name--vip {
+  color: #cb2376
+}
+
+
+.tariffs__content {
+  font-family: "Gotham Pro";
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #262424;
+}
+
+
+.tariffs__subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 23px;
+}
+
+
+
+.tariffs__text {
+  padding-top: 9px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 14px;
+  width: 258px;
+}
+
+.tariffs__text p {
+  margin: 0;
+  padding: 0;
+}

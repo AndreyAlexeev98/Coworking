@@ -1,0 +1,15 @@
+.container--main, .container--comment {
+  display: flex;
+}
+
+.container--main {  /* for page_1_main */
+  margin-top: 30px;
+}
+
+.container--comment { /* for page_2_comments */
+  margin-top: 48px;
+}
+
+.main {
+  width: 75%;
+}
